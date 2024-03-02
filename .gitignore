@@ -1,0 +1,7 @@
+/vendor
+/phpunit.xml
+/.idea
+/.vscode
+.phpunit.result.cache
+.env
+.env.test
