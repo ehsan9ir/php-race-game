@@ -5,7 +5,7 @@ use RacingGame\Player;
 use RacingGame\RacingGame;
 use RacingGame\Vehicle;
 
-class CalculateDuringTimeBasedMaximumSpeedTimeTest extends TestCase
+class CalculateDuringTimeBasedMaximumSpeedTest extends TestCase
 {
     public function testVehicleTimeWithKMPerHourMaxSpeed()
     {
