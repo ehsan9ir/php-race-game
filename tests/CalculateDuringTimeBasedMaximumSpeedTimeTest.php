@@ -14,7 +14,7 @@ class CalculateDuringTimeBasedMaximumSpeedTimeTest extends TestCase
 
         $vehicle1 = new Vehicle('Car', 200, 'Km/h');
 
-        $player1->selectVehicle($vehicle1);
+        $player1->setVehicle($vehicle1);
 
         // Create RacingGame instance
         $raceDistance = 250;
@@ -32,7 +32,7 @@ class CalculateDuringTimeBasedMaximumSpeedTimeTest extends TestCase
 
         $vehicle1 = new Vehicle('Helicopter', 140, 'Kts');
 
-        $player1->selectVehicle($vehicle1);
+        $player1->setVehicle($vehicle1);
 
         // Create RacingGame instance
         $raceDistance = 456; //this unit is km
@@ -50,7 +50,7 @@ class CalculateDuringTimeBasedMaximumSpeedTimeTest extends TestCase
 
         $vehicle1 = new Vehicle('Jet Ski', 50, 'knots');
 
-        $player1->selectVehicle($vehicle1);
+        $player1->setVehicle($vehicle1);
 
         // Create RacingGame instance
         $raceDistance = 90; //this unit is km

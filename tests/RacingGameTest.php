@@ -18,8 +18,8 @@ class RacingGameTest extends TestCase
         $vehicle2 = new Vehicle('Bus', 100, 'Km/h');
 
         // Select vehicles for players
-        $player1->selectVehicle($vehicle1);
-        $player2->selectVehicle($vehicle2);
+        $player1->setVehicle($vehicle1);
+        $player2->setVehicle($vehicle2);
 
         // Create RacingGame instance
         $raceDistance = 100;
