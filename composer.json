@@ -11,7 +11,8 @@
   },
   "autoload": {
     "psr-4": {
-      "RacingGame\\": "src/RacingGame/"
+      "RacingGame\\": "src/RacingGame/",
+      "Foundation\\": "src/Foundation/"
     }
   },
   "scripts": {
