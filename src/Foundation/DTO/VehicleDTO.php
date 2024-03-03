@@ -1,6 +1,6 @@
 <?php
 
-namespace DTO;
+namespace Foundation\DTO;
 
 class VehicleDTO extends BaseDTO
 {
