@@ -17,7 +17,7 @@ class Player
         return $this->name;
     }
 
-    public function selectVehicle(Vehicle $vehicle): void
+    public function setVehicle(Vehicle $vehicle): void
     {
         $this->selectedVehicle = $vehicle;
     }

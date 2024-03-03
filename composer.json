@@ -7,11 +7,13 @@
   "require": {
     "php": "^8.2",
     "symfony/console": "^7.0",
-    "symfony/polyfill-php80": "^1.22"
+    "symfony/polyfill-php80": "^1.22",
+    "ext-readline": "*"
   },
   "autoload": {
     "psr-4": {
-      "RacingGame\\": "src/RacingGame/"
+      "RacingGame\\": "src/RacingGame/",
+      "Foundation\\": "src/Foundation/"
     }
   },
   "scripts": {
